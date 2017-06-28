@@ -1,0 +1,10 @@
+apply plugin : 'application'
+
+configurations.runtime.each { File f -> println f }
+import java.util.Scanner;
+mainClassName = 'Cards.shuffleDeck'
+
+run{
+    standardInput = System.in
+    
+}
